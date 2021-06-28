@@ -6,8 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Google</title>
 </head>
 <body>    
+    <main class="wrapper">
+        <header class="gog-header">
+            <ul id="ul-header">
+                <li><a class="header-link" href="#">Gmail</a></li>
+                <li><a class="header-link" href="#">Imagens</a></li>
+                <li class="header-link"><a href="#"><i class="material-icons apps">apps</i></a></li>
+                <li>
+                    <button class="btn-header" type="button">
+                        <a class="btn-a" target="_blank" href="https://accounts.google.com/ServiceLogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                            Sign in
+                        </a>
+                    </button>
+                </li>
+            </ul>
+        </header>
+
+        <div class="content"> 
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+            <div id="search-div">
+
+                <img src="./search" class="search-img">
+                <input type="text" class="search-input"> 
+
+            </div>
+
+            <div id="buttons-div">
+                <button class="buttons" ><a href="#" class="buttons-a">Google Search</a></button>
+                <button class="buttons"><a href="#" class="buttons-a">I'm Feeling Lucky</a></button>
+
+            </div>
+
+                       
+            
+            <p class="offer">Google Offered in: <a class="offer-a" href="#">Português (Brasil)</a></p>
+        </div>
+
+        <footer>
+            <div class="country">
+                <p>Brasil</p>
+            </div>
+            <div class="footer-links">
+
+                <div class="left">
+                    <ul class="ul-left">
+                        <li><a class="li-links" href="#">About</a></li>
+                        <li><a class="li-links" href="#">Advertising</a></li>
+                        <li><a class="li-links" href="#">Business</a></li>
+                        <li><a class="li-links" href="#">How Search Works</a></li>
+    
+                    </ul>
+
+                </div>
+
+                <div class="right">
+                    <ul class="ul-right">
+                        <li><a class="li-links" href="#">Privacy</a></li>
+                        <li><a class="li-links" href="#">Terms</a></li>
+                        <li><a class="li-links" href="#">Settings</a></li>
+    
+                    </ul>
+
+                </div>               
+
+            </div>
+
+        </footer>
+
+    </main>
 </body>
 </html>
