@@ -44,7 +44,7 @@ main {
 }  
 
 .apps:hover {
-    background-color: rgb(228, 224, 224);
+    background-color: rgb(235, 231, 231);
 
 }
     
@@ -105,7 +105,11 @@ img {
 
     height: 42px;
     padding: 1px;
-    align-items: center;    
+    align-items: center;        
+}
+
+#search-div:hover {
+    box-shadow: 0px 3px 10px 0px rgb(199, 196, 196);
 }
 
 .search-input {
@@ -154,6 +158,10 @@ img {
     text-decoration: none;
 }
 
+.offer-a:hover {
+    text-decoration: underline;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -184,6 +192,12 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (max-width:1190px) {
+    .footer-links {
+        justify-content: space-around;
+    }
+}
+
 .ul-left {
     display: flex;
     list-style: none;
@@ -205,8 +219,12 @@ footer {
 
 }
 
+.li-links:hover {
+    text-decoration: underline;
+}
 
-@media (max-width: 650px) {
+
+@media (max-width: 660px) {
     .footer-links {
         flex-direction: column;
         align-items: center;
